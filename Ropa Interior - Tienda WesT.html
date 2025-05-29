@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://127.0.0.1:5500/bootstrap/Plantilla/ropainterior.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ropa Interior - Mi Tienda WesT</title>
+  <link href="./Ropa Interior - Tienda WesT_files/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="zIndex.html">Tienda WesT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="zIndex.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="Ropa - Tienda WesT.html">Ropa</a></li>
+          <li class="nav-item"><a class="nav-link" href="Calzado - Tienda WesT.html">Calzado</a></li>
+          <li class="nav-item"><a class="nav-link" href="Accesorios - Tienda WesT.html">Accesorios</a></li>
+          <li class="nav-item"><a class="nav-link" href="Trajes Elegantes - Tienda WesT.html">Trajes</a></li>
+          <li class="nav-item"><a class="nav-link" href="Ropa Interior - Tienda WesT.html">Ropa Interior</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="text-center text-primary mb-4">Ropa Interior</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="./Ropa Interior - Tienda WesT_files/boxers.png" class="card-img-top" alt="Boxers de algodón">
+          <div class="card-body">
+            <h5 class="card-title">Boxers de Algodón</h5>
+            <p class="card-text">Máxima comodidad y frescura durante todo el día.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="./Ropa Interior - Tienda WesT_files/sosten.png" class="card-img-top" alt="Sostenes con encaje">
+          <div class="card-body">
+            <h5 class="card-title">Sostenes con Encaje</h5>
+            <p class="card-text">Diseños elegantes con gran soporte para tu comodidad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="./Ropa Interior - Tienda WesT_files/pijamas.png" class="card-img-top" alt="Pijamas suaves">
+          <div class="card-body">
+            <h5 class="card-title">Pijamas Suaves</h5>
+            <p class="card-text">Perfectas para un descanso confortable y placentero.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <p class="mb-0">© 2025 Mi Tienda WesT. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="./Ropa Interior - Tienda WesT_files/bootstrap.bundle.min.js.descarga"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
